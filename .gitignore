@@ -1,0 +1,20 @@
+# Logs
+*.log
+
+# Virtual environments
+venv/
+env/
+.pyenv
+
+# Jupyter Notebook files
+.ipynb_checkpoints
+
+# IDE specific files
+.idea/
+.vscode/
+
+# Other
+*.tmp
+*.swp
+*.swn
+*.swo
