@@ -74,6 +74,12 @@ python restore-script-pgsql.py --host localhost --db banco_destino --file C:\Bac
 
 A senha fica só na janela atual do PowerShell e some ao fechá-la.
 
+## Teste de restauração
+
+Backup de uma tabela com 3 registros, restaurado em um banco novo e vazio:
+
+![Restauração com dados conferidos](restore-prova.png)
+
 ## Segurança
 
 - Os scripts não usam `shell=True`, então os parâmetros não podem ser usados para injetar comandos.
