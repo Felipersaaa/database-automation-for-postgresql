@@ -18,3 +18,7 @@ env/
 *.swp
 *.swn
 *.swo
+
+# Backups gerados pelo script
+*.sql
+backups/
